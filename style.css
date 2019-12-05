@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 239, 250);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+#logo {
+    width: 70%;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 107, 186);
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: color 0.4s ease;
+}
+
+button:hover {
+    color: rgb(255, 70, 168);
+}
+
+.candy, .candy-wrap {
+    fill:#FFC062;
+    stroke:#FFA722;
+}
+
+.line, .candy-line{
+    fill:none;
+    stroke:#FFB74B;
+    stroke-width:3;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+}
+
+.line {
+    opacity: 1;
+}
+
+.light-line {
+    fill:#FFD595;
+}
+
+.logo-name {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 50;
+    font-size: 3em;
+    color: rgb(121, 121, 121);
+  }
+  
+  .logo-name .title-wrap {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .logo-name .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .logo-name .subtitle {
+      font-size: 15px;
+      color: rgb(117, 117, 116);
+      opacity: 0;
+      font-weight: 200;
+      background: #fff;
+      padding: 5px;
+  }
+
+  
+#credits {
+    margin-top: 150px;
+    align-self: center;
+    font-size: 10px;
+    color: #DB1919;
+    font-weight: bold;
+}
+
+  .heart {
+    fill:#DB1919;
+    text-align: center;
+}
